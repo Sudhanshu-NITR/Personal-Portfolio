@@ -1,0 +1,213 @@
+{
+  "main": {
+    "name": "Sudhanshu Kadam",
+    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "titles": [
+      "Full Stack Development",
+      "GenAI Development",
+      "DevOps"
+    ],
+    "heroImage": "/image.png",
+    "techStackImages": [
+      "https://img.icons8.com/color/144/000000/material-ui.png",
+      "https://img.icons8.com/color/144/000000/html-5--v1.png",
+      "https://img.icons8.com/color/144/000000/redux.png",
+      "https://img.icons8.com/color/144/000000/chakra-ui.png"
+    ]
+  },
+  "about": {
+    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImageCaption": "< I build with impact 🚀 />",
+    "title": "Full Stack Developer",
+    "about": "I am a Full-Stack developer based in Pune, India. I'm an Electronics & Instrumentation Engg. undergrad from NITR, and my journey in software development began during my first year of college. I'm passionate about creating impact-driven, real-world problem solving & user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer.",
+    "callUrl": "",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/sudhanshu-u-kadam"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/Sudhanshu-NITR"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/jhondoe"
+    },
+    {
+      "icon": "FaTwitter",
+      "link": "https://twitter.com/jhondoe"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C++",
+      "image": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
+      "category": "Languages"
+    },
+    {
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Languages"
+    },
+    {
+      "name": "Python",
+      "image": "https://img.icons8.com/color/144/null/python--v1.png",
+      "category": "Languages"
+    },
+
+    {
+      "name": "React",
+      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
+      "category": "Front-End"
+    },
+    {
+      "name": "Next",
+      "image": "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+      "category": "Front-End"
+    },
+    {
+      "name": "Redux",
+      "image": "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000",
+      "category": "Front-End"
+    },
+    {
+      "name": "Tailwind",
+      "image": "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
+      "category": "Front-End"
+    },
+
+    {
+      "name": "Node",
+      "image": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+      "category": "Back-End"
+    },
+    {
+      "name": "Express",
+      "image": "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000",
+      "category": "Back-End"
+    },
+    {
+      "name": "Flask",
+      "image": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
+      "category": "Back-End"
+    },
+    {
+      "name": "Mongoose",
+      "image": "https://img.icons8.com/?size=100&id=gKfcEStXI1Hm&format=png&color=000000",
+      "category": "Back-End"
+    },
+
+    {
+      "name": "MySQL",
+      "image": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
+      "category": "Databases"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "https://img.icons8.com/?size=100&id=JRnxU7ZWP4mi&format=png&color=000000",
+      "category": "Databases"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000",
+      "category": "Databases"
+    },
+
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+      "category": "Tools"
+    },
+    {
+      "name": "LangChain",
+      "image": "https://images.seeklogo.com/logo-png/61/1/langchain-icon-white-logo-png_seeklogo-611656.png",
+      "category": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "BillBot AI - Autonomous Invoice Processing System",
+      "techstack": "React, Flask, LangChain, Docker",
+      "category": "GenAI",
+      "image": "/billbot-ai.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/BillBot_AI",
+        "video": "",
+        "visit": "https://billbot-ai.onrender.com/"
+      }
+    },
+    {
+      "name": "EcoFarm Assist - AI-Powered Agricultural Advisory System",
+      "techstack": "Next, MongoDB, Docker",
+      "category": "Next",
+      "image": "/ecofarm-assist.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/Ecofarm-Assist",
+        "video": "https://www.youtube.com/watch?v=5b-l-AnCuZo",
+        "visit": "https://eco-farm-assist.onrender.com/"
+      }
+    },
+    {
+      "name": "OrganLink - Real-time Organ Matching System",
+      "techstack": "React, Redux, MongoDB, Node",
+      "category": "MERN Stack",
+      "image": "/organlink.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/OrganLink",
+        "video": "",
+        "visit": "organ-link.vercel.app/"
+      }
+    }
+  ],
+  "educations": [
+    {
+      "institute": "The Good Samaritan School, Wakad",
+      "degree": "SSC",
+      "duration": "- 2021"
+    },
+    {
+      "institute": "M.P. International School & Jr. College, ShivajiNagar",
+      "degree": "HSC Science",
+      "duration": "2021 - 2023"
+    },
+    {
+      "institute": "National Institute of Technology Rourkela",
+      "degree": "B.Tech EIE",
+      "duration": "2023 - 2027",
+      "desc": [
+        "Pursuing Electronics & Instrumentation Engineering major",
+        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "ABC Tech Solutions",
+      "position": "Web Developer",
+      "duration": "2020 -2022",
+      "desc": [
+        "Assisted with design and development of project.",
+        "Worked on building the product from scratch and built multiple dashboards.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+      ]
+    },
+    {
+      "company": "XYZ Tech Solutions",
+      "position": "Web Developer",
+      "duration": "2022 - present",
+      "desc": [
+        "Assisted with design and development of project.",
+        "Worked on building the product from scratch and built multiple dashboards.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+      ]
+    }
+  ]
+}
