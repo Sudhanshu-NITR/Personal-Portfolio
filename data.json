@@ -57,6 +57,11 @@
       "image": "https://img.icons8.com/color/144/null/python--v1.png",
       "category": "Languages"
     },
+    {
+      "name": "Go",
+      "image": "https://img.icons8.com/color/144/null/golang.png",
+      "category": "Languages"
+    },
 
     {
       "name": "React",
@@ -128,7 +133,17 @@
     },
     {
       "name": "LangChain",
-      "image": "https://images.seeklogo.com/logo-png/61/1/langchain-icon-white-logo-png_seeklogo-611656.png",
+      "image": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langchain-color.png",
+      "category": "Tools"
+    },
+    {
+      "name": "LangGraph",
+      "image": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langgraph-color.png",
+      "category": "Tools"
+    },
+    {
+      "name": "LangSmith",
+      "image": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langsmith-color.png",
       "category": "Tools"
     }
   ],
