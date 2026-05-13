@@ -8,13 +8,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   poppins: ['var(--font-poppins)']
-      // },
+      fontFamily: {
+        sans: ['var(--font-outfit)', 'sans-serif']
+      },
       colors: {
+        slate: {
+          950: '#020617'
+        },
         grey: {
-          800: '#18141c',
-          900: '#120f16'
+          800: '#1e293b', // Maps dark grey to slate-800
+          900: '#020617'  // Maps darker grey to slate-950 for premium deep look
         },
         yellow: {
           400: '#FEDE00',

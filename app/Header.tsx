@@ -24,7 +24,7 @@ export default function Header({ logo }: { logo: string }) {
     const navs = ['home', 'about', 'projects', 'experience', 'contact']
 
     return (
-        <header className={`backdrop-filter backdrop-blur-lg ${scroll ? 'border-b bg-white bg-opacity-40' : 'border-b-0'} dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}>
+        <header className={`backdrop-filter backdrop-blur-lg ${scroll ? 'border-b bg-white/70 shadow-sm' : 'border-b-0'} dark:bg-slate-950/70 border-slate-200 dark:border-slate-800 z-30 min-w-full flex flex-col fixed transition-all duration-300`}>
             <nav className='lg:w-11/12 2xl:w-4/5 w-full md:px-6 2xl:px-0 mx-auto py-4 hidden sm:flex items-center justify-between'>
 
                 <Link href={'/'} className='2xl:ml-6 hover:text-violet-700 hover:dark:text-violet-500 transition-colors duration-300'>
@@ -69,7 +69,7 @@ export default function Header({ logo }: { logo: string }) {
             <div className={`flex min-h-screen w-screen absolute md:hidden top-0 ${!navCollapse ? 'right-0' : 'right-[-100%]'} bottom-0 z-50 ease-in duration-300`}>
                 <div className="w-1/4" onClick={() => setNavCollapse(true)}></div>
 
-                <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
+                <div className="flex flex-col p-4 gap-5 bg-[#f4f4f5]/95 backdrop-filter backdrop-blur-sm dark:bg-[#030014]/95 w-3/4">
                     <CgClose className='self-end my-2' size={20} onClick={() => setNavCollapse(true)} />
 
                     {navs.slice(0, 4).map((e) => (

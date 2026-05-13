@@ -62,7 +62,6 @@
       "image": "https://img.icons8.com/color/144/null/golang.png",
       "category": "Languages"
     },
-
     {
       "name": "React",
       "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
@@ -83,7 +82,6 @@
       "image": "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
       "category": "Front-End"
     },
-
     {
       "name": "Node",
       "image": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
@@ -104,7 +102,6 @@
       "image": "https://img.icons8.com/?size=100&id=gKfcEStXI1Hm&format=png&color=000000",
       "category": "Back-End"
     },
-
     {
       "name": "MySQL",
       "image": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
@@ -120,7 +117,6 @@
       "image": "https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000",
       "category": "Databases"
     },
-
     {
       "name": "GitHub",
       "image": "https://img.icons8.com/material-outlined/96/null/github.png",
@@ -177,6 +173,17 @@
       "image": "/organlink.png",
       "links": {
         "code": "https://github.com/Sudhanshu-NITR/OrganLink",
+        "video": "",
+        "visit": "https://github.com/Sudhanshu-NITR/OrganLink"
+      }
+    },
+    {
+      "name": "Spring-Boot-App CI/CD Pipeline",
+      "techstack": "Jenkins, SonarQube, ArgoCD",
+      "category": "DevOps",
+      "image": "/spring-boot-app.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/DevOps-Tutorial/tree/main/Jenkins/spring-boot-app",
         "video": "",
         "visit": "organ-link.vercel.app/"
       }

@@ -16,7 +16,7 @@ const Socials = ({ socials }: { socials: social[] }) => {
                 // const iconIndex = components.indexOf(icon : IconType)
                 // const Icon = components[`Fa${icon}`]
                 return (
-                    <Link href={s.link} target="_blank" rel="noreferrer" key={s.icon} className="grid place-items-center p-3 hover:animate-bounce rounded-full bg-violet-700 text-white">
+                    <Link href={s.link} target="_blank" rel="noreferrer" key={s.icon} className="grid place-items-center p-3 hover:-translate-y-1 rounded-full bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-violet-600 hover:text-white dark:hover:bg-violet-600 dark:hover:text-white transition-all shadow-sm">
                         {
                             //@ts-ignore
                             React.createElement(Fa[`${s.icon}`])

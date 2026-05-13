@@ -21,9 +21,9 @@ const Experiences = ({ experienceData, educationData }: Props) => {
         <SectionWrapper id="experience" className="min-h-screen">
             <h2 className="text-4xl text-center">Experience</h2>
 
-            <div className="w-fit mx-auto mt-6 p-2 bg-white dark:bg-grey-800 rounded-md flex gap-2 items-center">
+            <div className="w-fit mx-auto mt-6 p-2 bg-white/70 dark:bg-slate-900/70 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-full flex gap-2 items-center shadow-md">
                 {['Experience', 'Education'].map((e, i) => (
-                    <button key={i} onClick={() => setShow(e)} className={`py-2 px-4 rounded-md transition-colors ${show === e ? 'bg-violet-600 text-white' : 'hover:bg-gray-100 hover:dark:bg-grey-900 text-black dark:text-white'}`}>{e}</button>
+                    <button key={i} onClick={() => setShow(e)} className={`py-2 px-6 rounded-full transition-colors ${show === e ? 'bg-violet-600 text-white shadow-lg' : 'hover:bg-slate-100 hover:dark:bg-slate-800 text-black dark:text-white'}`}>{e}</button>
                 ))
                 }
             </div>
