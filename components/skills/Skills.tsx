@@ -15,9 +15,9 @@ const Skills = ({ skillData }: Props) => {
 
     return (
         <SectionWrapper id='skills' className="min-h-screen mt-12 md:mt-0 mx-4 md:mx-0 xl:my-20 2xl:my-0">
-            <h2 className="text-4xl text-center">Tech Stack</h2>
+            <h2 className="text-4xl mt-20 text-center">Tech Stack</h2>
 
-            <motion.div 
+            <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -28,8 +28,8 @@ const Skills = ({ skillData }: Props) => {
                         key={i}
                         onClick={() => setCategory(c)}
                         className={`p-1.5 md:p-2 text-sm md:text-base whitespace-nowrap flex-shrink-0 text-center cursor-pointer rounded-full ${category.toLowerCase() === c.toLowerCase()
-                                ? "bg-violet-600 text-white shadow-lg"
-                                : "hover:bg-slate-100 hover:dark:bg-slate-800"
+                            ? "bg-violet-600 text-white shadow-lg"
+                            : "hover:bg-slate-100 hover:dark:bg-slate-800"
                             } transition-all capitalize`}
                     >
                         {c}
@@ -37,7 +37,7 @@ const Skills = ({ skillData }: Props) => {
                 ))}
             </motion.div>
 
-            <motion.div 
+            <motion.div
                 layout
                 className="lg:w-3/4 2xl:w-3/5 my-8 mx-auto md:px-12 grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 place-items-center gap-8"
             >

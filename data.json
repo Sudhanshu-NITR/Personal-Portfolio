@@ -16,7 +16,7 @@
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImage": "/photo.png",
     "aboutImageCaption": "< I build with impact 🚀 />",
     "title": "Full Stack Developer",
     "about": "I am a Full-Stack developer based in Pune, India. I'm an Electronics & Instrumentation Engg. undergrad from NITR, and my journey in software development began during my first year of college. I'm passionate about creating impact-driven, real-world problem solving & user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer.",
@@ -34,7 +34,7 @@
     },
     {
       "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
+      "link": "https://www.instagram.com/sudh_1804"
     },
     {
       "icon": "FaTwitter",
@@ -141,6 +141,31 @@
       "name": "LangSmith",
       "image": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langsmith-color.png",
       "category": "Tools"
+    },
+    {
+      "name": "Docker",
+      "image": "https://img.icons8.com/?size=100&id=LdUzF8b5sz2R&format=png&color=000000",
+      "category": "DevOps"
+    },
+    {
+      "name": "Kubernetes",
+      "image": "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000",
+      "category": "DevOps"
+    },
+    {
+      "name": "Jenkins",
+      "image": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000",
+      "category": "DevOps"
+    },
+    {
+      "name": "GitHub Actions",
+      "image": "https://img.icons8.com/?size=100&id=118557&format=png&color=000000",
+      "category": "DevOps"
+    },
+    {
+      "name": "ArgoCD",
+      "image": "/argocd.png",
+      "category": "DevOps"
     }
   ],
   "projects": [
@@ -158,7 +183,7 @@
     {
       "name": "EcoFarm Assist - AI-Powered Agricultural Advisory System",
       "techstack": "Next, MongoDB, Docker",
-      "category": "Next",
+      "category": "Full-Stack",
       "image": "/ecofarm-assist.png",
       "links": {
         "code": "https://github.com/Sudhanshu-NITR/Ecofarm-Assist",
@@ -169,12 +194,12 @@
     {
       "name": "OrganLink - Real-time Organ Matching System",
       "techstack": "React, Redux, MongoDB, Node",
-      "category": "MERN Stack",
+      "category": "Full-Stack",
       "image": "/organlink.png",
       "links": {
         "code": "https://github.com/Sudhanshu-NITR/OrganLink",
         "video": "",
-        "visit": "https://github.com/Sudhanshu-NITR/OrganLink"
+        "visit": "organ-link.vercel.app/"
       }
     },
     {
@@ -185,7 +210,40 @@
       "links": {
         "code": "https://github.com/Sudhanshu-NITR/DevOps-Tutorial/tree/main/Jenkins/spring-boot-app",
         "video": "",
-        "visit": "organ-link.vercel.app/"
+        "visit": "https://github.com/Sudhanshu-NITR/DevOps-Tutorial/tree/main/Jenkins/spring-boot-app"
+      }
+    },
+    {
+      "name": "CityLive CI/CD Pipeline + GitOps",
+      "techstack": "Docker, Jenkins, GitHub Actions, SonarQube, ArgoCD, Kubernetes",
+      "category": "DevOps",
+      "image": "/citylive-admin.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/CityLive",
+        "video": "",
+        "visit": "city-live-eta.vercel.app"
+      }
+    },
+    {
+      "name": "Krasis",
+      "techstack": "Next.js, FastAPI, LangChain, LangGraph",
+      "category": "GenAI",
+      "image": "/krasis.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/Krasis",
+        "video": "",
+        "visit": "krasis-mu.vercel.app"
+      }
+    },
+    {
+      "name": "CityLive",
+      "techstack": "Next.js, Go, Python, FastAPI, Neo4j, Google ADK",
+      "category": "GenAI",
+      "image": "/citylive-admin.png",
+      "links": {
+        "code": "https://github.com/Sudhanshu-NITR/CityLive",
+        "video": "",
+        "visit": "city-live-eta.vercel.app"
       }
     }
   ],
@@ -212,23 +270,13 @@
   ],
   "experiences": [
     {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
+      "company": "Mahindra.AI",
+      "position": "AI Engineer",
+      "duration": "May 2026 - July 2027",
       "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
-      ]
-    },
-    {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Built analytics workflows to investigate engine testing inconsistencies across Advanced Cold Testing (ACT) stations using manufacturing datasets.",
+        "Developed failure analysis pipelines to identify recurring retest patterns, parameter drift, and process anomalies across testing systems.",
+        "Collaborated in Agile/Scrum-based development cycles with manufacturing and analytics teams to support process optimization and testing reliability improvements."
       ]
     }
   ]
